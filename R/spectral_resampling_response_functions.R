@@ -29,7 +29,7 @@
   attr(response, "maxwl")    <- 2500
   attr(response, "stepsize") <- 1
   return(response)
-}
+} 
 
 .get_RapidEye_response <- function ()
 {
