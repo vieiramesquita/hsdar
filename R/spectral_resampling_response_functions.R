@@ -12,7 +12,7 @@
                      "Landsat7"=.get_landsat7_response(),
                      "Landsat8"=.get_landsat8_response(),
                      "Sentinel2"=.get_sentinel2_response(),
-                     "Modis"=.get_MODIS_response(),
+                     "MODIS"=.get_MODIS_response(),
 #                      "Modis"=get_TerraModis_response(),
                      NULL
               )
