@@ -66,9 +66,9 @@ get.sensor.characteristics <- function (
   ub     <- NA
   if (sensor==available[1]) # MODIS
   {
-    lb <- c(620, 841, 459, 545, 1230, 1628, 2105, 405, 438, 483, 526, 546, 662, 673, 743, 862, 890, 931, 915)
-    ub <- c(670, 876, 479, 565, 1250, 1652, 2155, 420, 448, 493, 536, 556, 672, 683, 753, 877, 920, 941, 965)
-    nch <- 19
+    lb <- c(459, 545, 620, 841, 1230, 1628, 2105)
+    ub <- c(479, 565, 670, 876, 1250, 1652, 2155)
+    nch <- 7
     found <- TRUE
     fwhm <- FALSE
     if (response_function) response <- .get_response_function(sensor)
