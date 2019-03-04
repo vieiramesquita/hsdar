@@ -27,7 +27,7 @@
   response <- MODIS_response
   attr(response, "wlunit")   <- "nm"
   attr(response, "minwl")    <- 350
-  attr(response, "maxwl")    <- 2500
+  attr(response, "maxwl")    <- 5100
   attr(response, "stepsize") <- 1
   return(response)
 } 
