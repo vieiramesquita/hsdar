@@ -65,7 +65,7 @@ get.sensor.characteristics <- function (
   lb     <- NA
   ub     <- NA
   if (sensor==available[1]) # MODIS FROM https://oceancolor.gsfc.nasa.gov/docs/rsr/rsr_tables/
-  {	2105 - 2155
+  {
     lb <- c(459, 545, 620, 841, 1230, 1628, 2105)
     ub <- c(479, 565, 670, 876, 1250, 1652, 2155)
     nch <- 7
