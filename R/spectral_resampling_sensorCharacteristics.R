@@ -66,8 +66,8 @@ get.sensor.characteristics <- function (
   ub     <- NA
   if (sensor==available[1]) # MODIS
   {
-    lb <- c(350, 350, 350, 350, 1100, 1100, 1100)
-    ub <- c(1100, 1100, 1100, 1100, 5100, 4000, 5100)
+    lb <- c(350, 350, 350, 350, 350, 350, 350)
+    ub <- c(5100, 5100, 5100, 5100, 5100, 5100, 5100)
     nch <- 7
     found <- TRUE
     fwhm <- FALSE
