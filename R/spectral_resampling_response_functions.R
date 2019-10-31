@@ -26,8 +26,8 @@
   data("MODIS_response", package = "hsdar", envir = environment())
   response <- MODIS_response
   attr(response, "wlunit")   <- "nm"
-  attr(response, "minwl")    <- 380
-  attr(response, "maxwl")    <- 2199
+  attr(response, "minwl")    <- 350
+  attr(response, "maxwl")    <- 5100
   attr(response, "stepsize") <- 1
   return(response)
 } 
